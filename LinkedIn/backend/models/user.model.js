@@ -55,7 +55,7 @@ const userSchema = new mongoose.Schema({
     }],
     connection:[
         {type:mongoose.Schema.Types.ObjectId,
-         ref:User,   
+         ref:"User"
         }
     ]
 
