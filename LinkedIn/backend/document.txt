@@ -1,0 +1,28 @@
+Express JS
+what Express.js does in the MERN stack:
+
+Acts as a server-side framework: It handles HTTP requests (like GET, POST, PUT, DELETE) and routes.
+
+Connects to the database: It communicates with MongoDB (often via Mongoose) to perform operations like create, read, update, delete (CRUD).
+
+Handles APIs: Express lets you define APIs (routes) that your React frontend can call.
+
+Built on Node.js: Express simplifies Node.js by providing an easier and cleaner way to manage routes and middleware.
+
+Instalation
+1. npm init -y
+2. npm i express nodemon mongoose
+3. npm i dotenv
+
+one Error Solved
+✅ Option 1: Add "type": "module" in package.json
+If you're using ES module syntax (import, export), you must tell Node.js to treat your project as an ES module.
+
+Step 1 – Open your package.json
+Add this line:
+
+"type": "module"
+So your package.json will look something like this:
+
+for Authentication install following package
+1. npm i jsonwebtoken bcryptjs cookie-parser
