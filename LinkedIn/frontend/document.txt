@@ -1,0 +1,8 @@
+creating react project
+1. npm create vite@latest
+2. npm i react-icons react-router-dom
+3. npm install tailwindcss @tailwindcss/vite
+4. npm i axios : It is used to get the api from backend.
+import { useNavigate } from 'react-router-dom';
+<p className='text-center cursor-pointer' onClick={()=>navigate("/login")}>Already have an Account ? <span className='text-[#07afe2]'>Sign In</span></p>
+
