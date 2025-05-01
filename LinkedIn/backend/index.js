@@ -4,6 +4,7 @@ import connectDB from "./config/db.js";
 import authRouter from "./routes/auth.routes.js";
 import cookieParser from "cookie-parser";
 import cors from "cors";
+import userRouter from "./routes/user.routers.js";
 dotenv.config();
 let app = express();
 app.use(express.json());
@@ -14,6 +15,8 @@ app.use(cors({
 }));
 let port = process.env.PORT || 5000;
 app.use("/api/auth",authRouter)  //http://localhost/api/auth/signup
+app.use("/api/user",userRouter)
+
 app.listen(port, () => {
   connectDB();  
   console.log("Server is running on port 8000");
