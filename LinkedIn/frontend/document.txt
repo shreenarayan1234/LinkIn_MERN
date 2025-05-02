@@ -6,3 +6,4 @@ creating react project
 import { useNavigate } from 'react-router-dom';
 <p className='text-center cursor-pointer' onClick={()=>navigate("/login")}>Already have an Account ? <span className='text-[#07afe2]'>Sign In</span></p>
 
+5. pngwing.com : to get png logo
