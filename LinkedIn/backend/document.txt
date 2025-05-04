@@ -27,3 +27,7 @@ So your package.json will look something like this:
 
 for Authentication install following package
 1. npm i jsonwebtoken bcryptjs cookie-parser
+
+for uploading the image you have to install
+1. npm i multer
+2. npm i cloudinary
