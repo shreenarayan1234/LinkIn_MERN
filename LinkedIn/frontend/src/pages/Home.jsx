@@ -18,7 +18,7 @@ const Home = () => {
         <div className='w-full lg:w-[25%] min-h-[200px] bg-[white] shadow-lg rounded-lg p-[10px] relavite'>
             <div className="w-[100%] h-[100px] bg-gray-400 rounded overflow-hidden flex items-center justify-center relative cursor-pointer">
               <img src="" alt="" className='w-full' />
-              <FaCamera className='right-[20px] top-[20px] absolute w-[25px] h-[25px] text-gray-800'/>
+              <FaCamera className='right-[20px] top-[20px] absolute w-[25px] h-[25px] text-[white]'/>
             </div>
             <div className='w-[70px] h-[70px] rounded-full overflow-hidden item-center justify-center absolute top-[165px] left-[60px] cursor-pointer'> 
               <img src={dp} alt="" className='h-full' />

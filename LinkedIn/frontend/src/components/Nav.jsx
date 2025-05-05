@@ -29,7 +29,7 @@ const Nav = () => {
         }
     }
   return (
-    <div className='w-full h-[80px] bg-white fixed top-0 shadow-lg flex  justify-between md:justify-around items-center px-[10px]'>
+    <div className='w-full h-[80px] bg-white fixed top-0 shadow-lg flex  justify-between md:justify-around items-center px-[10px] left-0 z-[100]'>
     <div className='flex items-center justify-center gap-[10px]'>    
     <div onClick={()=>setActiveSearch(false)}> 
         <img src={logo2} alt="" className='w-[50px]'/>
